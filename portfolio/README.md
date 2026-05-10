@@ -1,12 +1,15 @@
-# Data Engineering Projects - BuildLab
+# Portfolio Projects
 
-Data Engineering projects by **Purusottam Swain**
+End-to-end Azure Data Engineering portfolio projects built on Microsoft Azure.
 
-## What's Here
-- [Portfolio Projects](./portfolio/) — personal projects showcasing Azure Data Engineering skills
-- [Client Projects](./client-projects/) — client work (details shared on request)
+## Projects
 
-## 🛠️ Tech Stack
+| # | Project | Stack | Status |
+|---|---------|-------|--------|
+| 001 | [Insurance Claims Analytics Pipeline](./001-azure-insurance-claims-pipeline/) | ADF, Databricks, PySpark, Delta Lake, Azure SQL | ✅ Complete |
+| 002 | [Weather Data Lakehouse](./002-azure-weather-lakehouse/) | ADF, Open-Meteo API, Medallion Architecture, Delta Lake | 🔄 In Progress |
+
+## Tech Stack Badges
 
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
 ![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat&logo=databricks&logoColor=white)
