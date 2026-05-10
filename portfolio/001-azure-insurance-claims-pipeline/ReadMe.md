@@ -31,3 +31,25 @@ Azure SQL Database [dbo.insurance_claims_scored]
 | Azure Databricks (PySpark) | Transformation & risk scoring |
 | Delta Lake | Partitioned versioned storage format |
 | Azure SQL Database | Analytics-ready curated output |
+| Python / SQL | Scripting & querying |
+
+## Key Features
+- Automated ETL with ADF Schedule Trigger (weekly, Monday 8AM IST)
+- PySpark Risk Scoring: HIGH / MEDIUM / LOW classification logic
+- Delta Lake partitioned by risk_score for optimised querying
+- Data quality: null handling, deduplication, type casting
+- Error handling and monitoring via ADF Monitor
+
+## Dataset
+Public auto insurance claims dataset from Kaggle
+(kaggle.com/datasets/buntyshah/auto-insurance-claims-data)
+
+## Repository Structure
+```
+notebooks/   -- PySpark transformation scripts (.py)
+adf-pipelines/ -- ADF pipeline JSON definitions
+data/         -- Sample data (10 rows for reference)
+docs/         -- Architecture screenshots
+README.md     -- This file
+```
+
