@@ -1,1 +1,0 @@
-001-azure-insurance-claims-pipeline/notes.txt
