@@ -2,9 +2,13 @@
 
 Data Engineering projects by **Purusottam Swain**
 
-## What's Here
-- [Portfolio Projects](./portfolio/) — personal projects showcasing Azure Data Engineering skills
-- [Client Projects](./client-projects/) — client work (details shared on request)
+## Projects
+
+| # | Project | Stack | Status |
+|---|---------|-------|--------|
+| 001 | [Insurance Claims Analytics Pipeline](./001-azure-insurance-claims-pipeline/) | ADF, Databricks, PySpark, Delta Lake, Azure SQL | ✅ Complete |
+| 002 | [Weather Data Lakehouse](./002-azure-weather-lakehouse/) | ADF, Open-Meteo API, Medallion Architecture, Delta Lake | 🔄 In Progress |
+
 
 ## 🛠️ Tech Stack
 

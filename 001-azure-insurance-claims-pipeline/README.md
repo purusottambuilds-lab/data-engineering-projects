@@ -48,7 +48,7 @@ Azure SQL Database [dbo.insurance_claims_scored]
 
 ## Dataset
 Public auto insurance claims dataset from Kaggle
-(kaggle.com/datasets/buntyshah/auto-insurance-claims-data)
+(kaggle.com/datasets/buntyshah/insurance-claims-data)
 
 ## Repository Structure
 ```
