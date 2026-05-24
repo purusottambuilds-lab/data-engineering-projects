@@ -12,7 +12,8 @@ Data Engineering projects by **Purusottam Swain**
 | # | Project | Stack | Description | Status |
 |---|---------|-------|-------------|--------|
 | 001 | [azure-insurance-claims-pipeline](https://github.com/purusottambuilds-lab/001-azure-insurance-claims-pipeline) | ADF, Databricks, PySpark, Delta Lake, Azure SQL | Processes raw insurance claims data using ADF and PySpark to generate risk-scored analytics datasets | ✅ Complete |
-| 002 | [azure-weather-lakehouse](https://github.com/purusottambuilds-lab/002-azure-weather-lakehouse) | ADF, Open-Meteo API, Medallion Architecture, Delta Lake | Ingests live weather API data into a Medallion lakehouse architecture using Azure Databricks and PySpark | 🔄 In Progress |
+| 002 | [azure-weather-lakehouse](https://github.com/purusottambuilds-lab/002-azure-weather-lakehouse) | ADF, Open-Meteo API, Medallion Architecture, Delta Lake | Ingests live weather API data into a Medallion lakehouse architecture using Azure Databricks and PySpark | ✅ Complete |
+| 003 | [stock-market-pipeline](https://github.com/purusottambuilds-lab/003-stock-market-pipeline) | ADF, Open-Meteo API, Medallion Architecture, Delta Lake | Ingests live weather API data into a Medallion lakehouse architecture using Azure Databricks and PySpark | 🔄 In Progress |
 
 ---
 
@@ -33,20 +34,22 @@ Data Engineering projects by **Purusottam Swain**
 purusottambuilds-lab/
 ├── data-engineering-projects/     ← this repo (portfolio hub)
 ├── 001-azure-insurance-claims-pipeline/
-└── 002-azure-weather-lakehouse/
+├── 002-azure-weather-lakehouse/
+└── 003-stock-market-pipeline/
 ```
 
 ---
 
 ## About
 
-Built by **Purusottam Swain** — Azure Data Engineer
+Built by **Purusottam Swain** - Azure Data Engineer
 Specialising in cloud-native data pipelines on Microsoft Azure.
 
 ---
 
 ## 📬 Contact
 - Email: purusottam.builds@gmail.com
-- Upwork: [Purusottam Swain](https://www.upwork.com/freelancers/~017164fcff771e794c?mp_source=share)
+- [Upwork](https://www.upwork.com/freelancers/~017164fcff771e794c?mp_source=share)
+- [Fiverr](https://www.fiverr.com/purusottam_sn?public_mode=true)
 
 ---
