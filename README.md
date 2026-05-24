@@ -40,7 +40,7 @@ purusottambuilds-lab/
 
 ## About
 
-Built by **Purusottam Swain** — Azure Data Engineer  
+Built by **Purusottam Swain** — Azure Data Engineer
 Specialising in cloud-native data pipelines on Microsoft Azure.
 
 ---
