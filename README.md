@@ -9,11 +9,13 @@ Data Engineering projects by **Purusottam Swain**
 
 ## Portfolio Projects
 
-| # | Project | Stack | Description | Status |
+| # | Project | Tech Stack | Description | Status |
 |---|---------|-------|-------------|--------|
-| 001 | [azure-insurance-claims-pipeline](https://github.com/purusottambuilds-lab/001-azure-insurance-claims-pipeline) | ADF, Databricks, PySpark, Delta Lake, Azure SQL | Processes raw insurance claims data using ADF and PySpark to generate risk-scored analytics datasets | ✅ Complete |
-| 002 | [azure-weather-lakehouse](https://github.com/purusottambuilds-lab/002-azure-weather-lakehouse) | ADF, Open-Meteo API, Medallion Architecture, Delta Lake | Ingests live weather API data into a Medallion lakehouse architecture using Azure Databricks and PySpark | ✅ Complete |
-| 003 | [stock-market-pipeline](https://github.com/purusottambuilds-lab/003-stock-market-pipeline) | ADF, Open-Meteo API, Medallion Architecture, Delta Lake | Ingests live weather API data into a Medallion lakehouse architecture using Azure Databricks and PySpark | 🔄 In Progress |
+| 001 | [azure-insurance-claims-pipeline](https://github.com/purusottambuilds-lab/001-azure-insurance-claims-pipeline) | ADF, Databricks, PySpark, Delta Lake, Azure SQL | PIngests raw insurance claims CSV, runs a data quality framework with scoring gate, applies multi-factor PySpark risk scoring, stores versioned Delta Lake output, loads to Azure SQL via JDBC with Gmail alerting | ✅ Complete |
+| 002 | [azure-weather-lakehouse](https://github.com/purusottambuilds-lab/002-azure-weather-lakehouse) | ADF, Open-Meteo API, Databricks, PySpark, Delta Lake, Azure SQL | Ingests live hourly weather data for 4 Indian cities via REST API using ADF ForEach, implements Medallion Architecture (Bronze/Silver/Gold), detects anomalies, applies rolling window analytics and severity scoring | ✅ Complete |
+| 003 | [stock-market-analytics-pipeline](https://github.com/purusottambuilds-lab/stock-market-analytics-pipeline) | ADF, Alpha Vantage API, Databricks, PySpark, Delta Lake, Azure SQL | Ingests daily stock price data via free API, implements SCD Type 2 history tracking using Delta MERGE, demonstrates Delta time travel, incremental loading pattern and broadcast variables | 🔄 In Progress |
+| 004 | [retail-sales-data-warehouse](https://github.com/purusottambuilds-lab/retail-sales-data-warehouse) | ADF, REST Countries API, Kaggle Olist Dataset, Databricks, PySpark, Delta Lake, Azure SQL | Multi-source ingestion from CSV and REST API, builds star schema data warehouse with dim and fact tables, parameterized ADF pipelines, bucketing and partitioning strategies | ⏳ Planned |
+| 005 | [github-activity-analytics](https://github.com/purusottambuilds-lab/github-activity-analytics) | ADF, GitHub API, Databricks, PySpark, Delta Lake | Ingests GitHub public events via REST API using ADF ForEach, processes developer activity metrics, builds productivity scoring with dynamic parameterized pipelines and Z-ordering | ⏳ Planned |
 
 ---
 
